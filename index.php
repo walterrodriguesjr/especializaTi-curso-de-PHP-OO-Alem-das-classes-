@@ -10,26 +10,52 @@ class Product
     {
         return "{$this->name},
                 {$this->description},
-                {$this->price} <hr>";
+                {$this->price}, <hr>";
+    }
+
+    function setName($name)
+    {
+        $this->name = $name;
+    }
+
+    function setDescription($description)
+    {
+        $this->description = $description;
+    }
+
+    function setPrice($price)
+    {
+        $this->price = $price;
+    }
+    
+    function setWeight($weight)
+    {
+        $this->weight = $weight;
     }
 }
 
 $tv = new Product;
-$tv->name = 'TV';
-$tv->description = 'Smart TV';
-$tv->price = 4500;
+/* ENTRADA DE DADOS */
+$tv->setName('TV');
+$tv->setDescription('55 polegadas');
+$tv->setPrice(5000);
+/* RETORNO DE DADOS */
 echo $tv->get();
 
 
 $geladeira = new Product;
-$geladeira->name = 'Geladeira';
-$geladeira->description = 'Degelo Automático';
-$geladeira->price = 2900;
+/* ENTRADA DE DADOS */
+$geladeira->setName('Geladeira');
+$geladeira->setDescription('Degelo Automático');
+$geladeira->setPrice(2900);
+/* RETORNO DE DADOS */
 echo $geladeira->get();
 
 $microondas = new Product;
-$microondas->name = "Microondas";
-$microondas->description = "oito temperaturas";
-$microondas->price = 4000;
-$microondas->weight = 10;
+/* ENTRADA DE DADOS */
+$microondas->setName('Microondas');
+$microondas->setDescription('oito temperaturas');
+$microondas->setPrice(4000);
+$microondas->setWeight(11);
+/* RETORNO DE DADOS */
 echo $microondas->get();

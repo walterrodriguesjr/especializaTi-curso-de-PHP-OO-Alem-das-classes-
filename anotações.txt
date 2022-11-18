@@ -28,7 +28,13 @@ toda classe tem: atributos(nome, cor, tamanho) e métodos(ações, funções)
 -criar um novo objeto, microondas 
     nome, descrição, preço e peso 
     
+07-PHP OO avançando com métodos 
+-automazizando mais ainda com o uso dos métodos
+-os métodos podem ser chamados pelas classes, realizando ações para o mesmo 
 
+08-PHP OO método construtor 
+-a cada vez que um novo objeto é criado, a função __construct() é chamada 
+-
 
 
 
