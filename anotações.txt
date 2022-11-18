@@ -17,9 +17,18 @@ toda classe tem: atributos(nome, cor, tamanho) e métodos(ações, funções)
 
 04-PHP OO classes e atributos 
 -analogia a uma planta, que é um objeto, sendo uma classe, 
-    a planta tem atributos, que seria a cor, folhas, tamanho 
+    a planta tem suas propriedades (atributos), que seria a cor, folhas, tamanho 
 -esse objeto pode ser ações (métodos), fazer fotossíntese, por exemplo 
--
+
+05-PHP OO Métodos 
+-os métodos dos objetos, servem para possibilitar a reutilização de código 
+-são ações que podem ser realizadas junto com os objetos 
+
+06-PHP OO exercício de desafio 
+-criar um novo objeto, microondas 
+    nome, descrição, preço e peso 
+    
+
 
 
 
