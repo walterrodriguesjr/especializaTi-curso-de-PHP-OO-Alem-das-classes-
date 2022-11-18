@@ -1,8 +1,26 @@
 01-organização PHP OO 
 
+
 01-o que é PHP OO? 
 -orientação a objeto consiste em separar os dados em classes, 
 toda classe tem: atributos(nome, cor, tamanho) e métodos(ações, funções)
 
-02-mabiente de desenvolvimento 
+02-ambiente de desenvolvimento 
+-configuração do ambiente
+
+03-ferramentas curso PHP OO 
+-ok 
+
+
+02-PHP OO na prática 
+
+
+04-PHP OO classes e atributos 
+-analogia a uma planta, que é um objeto, sendo uma classe, 
+    a planta tem atributos, que seria a cor, folhas, tamanho 
+-esse objeto pode ser ações (métodos), fazer fotossíntese, por exemplo 
 -
+
+
+
+
