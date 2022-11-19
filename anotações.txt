@@ -34,7 +34,39 @@ toda classe tem: atributos(nome, cor, tamanho) e métodos(ações, funções)
 
 08-PHP OO método construtor 
 -a cada vez que um novo objeto é criado, a função __construct() é chamada 
--
+
+09-PHP OO método destructor 
+-inverso do constructor, destroi a classe em questão para não ficar consumindo memória a toa 
+
+10-introdução a herança no PHP 
+-configurando as informações para entender a herança na próxima aula;
+
+11-herança no PHP 
+-o princípio é que haverá uma class principal que possui atributos e métodos que serão comuns para 
+    as class a baixo dela, assim, as demais class só terão seus atributos e métodos específicos. 
+
+12-polimorfismo no PHP 
+-significa que, mesmo que a class filha já herde um método de um class mãe, a class filha pode ter esse método 
+    reescrito para situações particulares desta class. O método precisa estar com mesmo nome, tanto na 
+    class filha, quanto na class mãe 
+
+13-classes abstratas no PHP 
+-a classe abstrata geralmente é a aquela class mãe, que não pode criar uma instância (um objeto) diretamente, apenas fornece 
+    atributos e métodos para que outras class possam usar 
+
+14-métodos abstratos no PHP 
+-quando a class mãe tem um método abstrato, ele precisa obrigatoriamente ser declarado também nas class 
+ que extendem desta class mãe, caso contrário, irá gerar um erro. 
+
+15-classes finais no PHP 
+-a palavra 'final' é colocada antes da declaração da class, serve para travar a referida class filha, 
+    para que dela, não possa haver uma instância a baixo para herdar atributos e métodos, gerando erro 
+
+16-métodos final no PHP 
+-quando a palavra 'final' é setada antes da declaração do método de uma class, significa que este método, 
+    não poderá ser reescrito por polimorfismo em class abaixo, mesmo que sejam alterados as ações do método 
+
+17-
 
 
 

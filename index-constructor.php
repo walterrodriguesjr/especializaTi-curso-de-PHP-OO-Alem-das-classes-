@@ -17,6 +17,11 @@ class Product
     {
         return "{$this->name}, {$this->description}, {$this->price} <hr>";
     }
+
+    function __destruct()
+    {
+        echo 'Entrei no destructor';
+    }
 }
 
 $product1 = new Product('TV', 'Amoled', 1000);
