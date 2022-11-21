@@ -66,7 +66,35 @@ toda classe tem: atributos(nome, cor, tamanho) e métodos(ações, funções)
 -quando a palavra 'final' é setada antes da declaração do método de uma class, significa que este método, 
     não poderá ser reescrito por polimorfismo em class abaixo, mesmo que sejam alterados as ações do método 
 
-17-
+17-encapsulamento no PHP OO 
+-envolve a visibilidade do dado, está relacionado a encapsular, proteger o dado 
+    public = qualquer um pode acessar
+    protected = somante as classes que extendem ela podem acessar
+    private = ninguém pode acessar, exceto um método da classe private, neste caso, o objeto terá acesso ao método 
+
+18-constantes no PHP OO 
+-constantes tem valores fixos, eles não podem ser alterados
+
+19-propriedades estáticas PHP OO 
+-ok 
+
+20-métodos estáticos PHP OO 
+-são métodos que captam dados resultantes de outros métodos, não aceitam entrada de dados diretamente 
+
+21-associação PHP OO 
+-associação entre objetos, quando um objeto, uma de suas propriedades recebe um outro objeto, esta então 
+    passa a ter acesso aos dados dessa outra categoria
+
+22-agregação PHP OO 
+-ok 
+
+23-composição PHP OO 
+-ok 
+
+
+
+
+
 
 
 
