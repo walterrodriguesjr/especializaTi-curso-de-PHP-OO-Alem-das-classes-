@@ -91,6 +91,18 @@ toda classe tem: atributos(nome, cor, tamanho) e métodos(ações, funções)
 23-composição PHP OO 
 -ok 
 
+24-PHP OO interfaces (exemplo PDF)
+-a interface funciona como um class principal, e, diferente da herança, 
+    ela pode ser implementada quantas vezes for necessário 
+
+
+    03-Além das classes 
+
+
+    25-métodos mágicos PHP OO __get __set 
+    -métodos prontos de __get e __set do PHP, facilitam a inserção e recuperação de dados de uma classe 
+
+    
 
 
 
