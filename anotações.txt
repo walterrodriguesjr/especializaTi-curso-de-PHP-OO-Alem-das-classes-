@@ -96,11 +96,35 @@ toda classe tem: atributos(nome, cor, tamanho) e métodos(ações, funções)
     ela pode ser implementada quantas vezes for necessário 
 
 
-    03-Além das classes 
+03-Além das classes 
 
 
-    25-métodos mágicos PHP OO __get __set 
-    -métodos prontos de __get e __set do PHP, facilitam a inserção e recuperação de dados de uma classe 
+25-métodos mágicos PHP OO __get __set 
+-métodos prontos de __get e __set do PHP, facilitam a inserção e recuperação de dados de uma classe 
+
+26-métodos mágicos PHP OO - __call__callstatic_tostring 
+-ok
+
+27-funções para manipulação de classes-parte 01 
+-get_class_methods = retorna os métodos contidos em uma classe(mesmo que esteja em um objeto)
+-get_class_vars = retorna os atributos contidos em uma classes
+-get_object_vars = retorna os atributos contidos em um objeto 
+-get_class = retorna qual classe está contida em um objeto 
+
+28-funções para manipulação de classes-parte 02
+-get_parent_class = retorna qual a classe pai do objeto em questão 
+-is_subclass_of = retorna se o objeto em questão, é uma subclasse da classe informada 
+-method_exists = retorna se o objeto informado, contém o método informado 
+-property_exists = retorna se o objeto informado contém a propriedade informada 
+
+29-funções para manipulação de classes-parte 03
+-ok 
+
+30-funções para manipulação de classes-parte 04
+-ok
+
+
+
 
     
 
